@@ -6,7 +6,12 @@ goal_state = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 # Define the initial state
 initial_state = [7, 2, 4, 5, 0, 6, 8, 3, 1]
 
-# Define the possible moves
+# Define the possible moves 
+# what does this mean?
+# 0 can move to 1 or 3
+# 1 can move to 0, 2, or 4
+# 2 can move to 1 or 5
+# 3 can move to 0, 4, or 6
 moves = {
     0: [1, 3],
     1: [0, 2, 4],
